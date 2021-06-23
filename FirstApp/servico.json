@@ -1,0 +1,55 @@
+[
+    {
+        "nomePergunta": "Quanto custa pra fazer um logo para minha empresa?",
+        "resposta": "Depende muito do quanto você está disposto a pagar. Porém, é importante ressaltar que nem sempre um logo caro sera um logo bem sucedido. Sendo direto, o valor médio de uma identidade visual gira em torno de R$ 8.000 para pequenas empresas.",
+        "isFavorito": false
+    },
+    
+    {
+        "nomePergunta": "Quanto devo cobrar para uma consultoria de marketing?",
+        "resposta": "Depende! O serviço que irá fazer engloba criação de estratégia com plano de ação? Envolve a parte visual como construção de identidade visual e verbal? Quanto mais itens incluir, mais equilibrado o preço deve ser.",
+        "isFavorito": false
+    },
+    
+    {
+        "nomePergunta": "Cobrei R$ 350 para criação de um logo, é muito barato?",
+        "resposta": "O valor da confecção de um logo está diretamente envolvido com seu nível de complexidade, mas é importante valorizar seu próprio trabalho pois envolve não somente ilustrar mas pesquisar, se inspirar, alguns testes antes da escolha final... Creio que cobrar entre 450 - 550 como base seja mais coerente.",
+        "isFavorito": false
+    },
+    {
+        "nomePergunta": "O que acontece se minha empresa tem o mesmo nome de outra?",
+        "resposta": "Não é plágio nomes iguais de empresas que pertencem a diferentes ramos. O nome “Extra” é um exemplo usado no Hipermercado Extra e no jornal Extra. É plágio qualquer situação que se comprova intenção de reproduzir ou replicar algo que já exista. E plágio é crime! Pesquise bastante antes de criar sua marca.",
+        "isFavorito": false
+    },
+    {
+        "nomePergunta": "Alguém faz minha divulgação de graça?",
+        "resposta": "A expressão ”O barato sai caro” serve totalmente para Branding. Grandes empresas foram ao fracasso total devido a sua divulgação incorreta. Na hora de criar algo, pense com cuidado e carinho, como sua empresa será vista? Essa é a ideia do Branding!",
+        "isFavorito": false
+    },
+    {
+        "nomePergunta": "É necessária uma análise de concorrentes?",
+        "resposta": "Sim!! O método de se comparar com os concorrentes é chamado BenchMarking. A ideia é de uma aplicação de boas práticas que visam o sucesso da empresa. BenchMarking não é copiar uma fórmula de sucesso de uma empresa, e sim observar e aprender com essa fórmula, adaptando para seu próprio negócio.",
+        "isFavorito": false
+    },
+    {
+        "nomePergunta": "Afinal, o que é BrandBook e porque preciso fazer?",
+        "resposta": "Brandbook é o manual da marca. Ele é feito para trazer informações que representam a essência, visão e cultura da sua empresa. Ele faz parte do processo de Branding. e pode ser mais genérico ou mais específico, depende do que você quer propor para o leitor.",
+        "isFavorito": false
+    },
+    {
+        "nomePergunta": "Quais as vantagens do serviço de Branding?",
+        "resposta": "Existem diversos aspectos que são influenciados diretamente pelo processo de Branding. Um bom Branding se diferencia da concorrência, além de trazer estabilidade a marca. Ele passa ao consumidor uma sensação de confiança e credibilidade. A forma que nós queremos que as pessoas vejam nossa marca só depende de nós! Uma boa plantação traz uma boa colheita né?",
+        "isFavorito": false
+    },
+    {
+        "nomePergunta": "Eu quero que minha marca seja famosa igual a da Apple, como faço?",
+        "resposta": "Seja o Steve Jobs, porque criar outra igual a Apple só assim…",
+        "isFavorito": false
+    },
+    {
+        "nomePergunta": "Estou querendo um aplicativo tipo o Uber e preciso de um logo, alguém se habilita? ",
+        "resposta": " sem resposta (acho que não precisa de resposta pra isso djaoijd)",
+        "isFavorito": false
+    }
+    
+]

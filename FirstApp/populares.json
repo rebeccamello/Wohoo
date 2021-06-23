@@ -1,0 +1,50 @@
+[
+    {
+        "nomePergunta": "Logo e marca, qual a diferença entre eles?",
+        "resposta": "Logo se refere mais no que se diz respeito à identidade visual da sua marca. A marca engloba tudo, inclusive o logo, mas também identidade verbal, plano de ações, marketing, branding. O que de fato representa o produto ou serviço que está sendo ofertado.",
+        "isFavorito": true
+    },
+    {
+        "nomePergunta": "Logo é uma identidade visual?",
+        "resposta": "Sim! O logo será responsável por atribuir à sua marca uma característica única, o que será estampado em todos os canais de divulgação e associado diretamente ao produto/serviço que está sendo ofertado.",
+        "isFavorito": true
+    },
+    {
+        "nomePergunta": "Qual a diferença entre logotipo e logomarca?",
+        "resposta": "Logotipo se dá pela representação da empresa feita por meio de seu nome estilizado, a logomarca é uma mistura do nome da empresa com o símbolo que a representa.",
+        "isFavorito": true
+    },
+    {
+        "nomePergunta": "Como um logo pode impactar negativamente o meu negócio?",
+        "resposta": "Dependendo de como o logo foi feito, pode conter muitas informações, por exemplo, e impedir que o consumidor consiga entender a mensagem passada e, portanto, isso pode ser bastante prejudicial para a marca.",
+        "isFavorito": true
+    },
+        {
+            "nomePergunta": "O que é INPI? Vi isso relacionado com marca e fiquei em dúvida",
+            "resposta": "INPI é de Instituto Nacional de Propriedade Industrial e sempre que surgir a ideia para uma marca, recomenda-se fazer uma pesquisa junto ao INPI para verificar se está disponível para registro. ",
+            "isFavorito": true
+        },
+        {
+            "nomePergunta": "Quais são os direitos e deveres do titular de uma marca registrada?",
+            "resposta": "O registro da marca lhe dá o poder de uso exclusivo sobre ela em todo o país por dez anos e pode ser prorrogada desde que o titular solicite.  ",
+            "isFavorito": true
+        },
+        {
+            "nomePergunta": "Quando ocorre a perda do direito sobre a marca registrada?",
+            "resposta": "A perda ocorre pela expiração do prazo de vigência, renúncia ou caducidade ou por falta de observação do disposto no art. 217 da LPI(Lei da Propriedade Industrial). ",
+            "isFavorito": true
+        },
+            {
+                "nomePergunta": "Quanto custa pra fazer um logo para minha empresa?",
+                "resposta": "Depende muito do quanto você está disposto a pagar. Porém, é importante ressaltar que nem sempre um logo caro sera um logo bem sucedido. Sendo direto, o valor médio de uma identidade visual gira em torno de R$ 8.000 para pequenas empresas.",
+                "isFavorito": true
+            },
+            {
+                "nomePergunta": "O que acontece se minha empresa tem o mesmo nome de outra?",
+                "resposta": "Não é plágio nomes iguais de empresas que pertencem a diferentes ramos. O nome “Extra” é um exemplo usado no Hipermercado Extra e no jornal Extra. É plágio qualquer situação que se comprova intenção de reproduzir ou replicar algo que já exista. E plágio é crime! Pesquise bastante antes de criar sua marca.",
+                "isFavorito": true
+            }
+        ]
+
+
+

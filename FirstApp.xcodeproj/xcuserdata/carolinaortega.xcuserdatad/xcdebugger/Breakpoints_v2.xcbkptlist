@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "C1BCD6E5-31AC-40F0-8F39-4A683ADFFD8C"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C3A63D76-22BD-4D72-B9D2-DF35BF269D9E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FirstApp/PopUpViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "PopUpViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "C3A63D76-22BD-4D72-B9D2-DF35BF269D9E - 4368e61f5d3dfb1e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FirstApp.PopUpViewController.pergunta.getter : Swift.Optional&lt;FirstApp.Pergunta&gt;"
+                  moduleName = "FirstApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/carolinaortega/git/FirstApp%204.0.3/FirstApp/PopUpViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "167">
+               </Location>
+               <Location
+                  uuid = "C3A63D76-22BD-4D72-B9D2-DF35BF269D9E - 25258b1598bf9762"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FirstApp.PopUpViewController.pergunta.setter : Swift.Optional&lt;FirstApp.Pergunta&gt;"
+                  moduleName = "FirstApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/carolinaortega/git/FirstApp%204.0.3/FirstApp/PopUpViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "259">
+               </Location>
+               <Location
+                  uuid = "C3A63D76-22BD-4D72-B9D2-DF35BF269D9E - 448b288f1d397166"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FirstApp.PopUpViewController.pergunta.modify : Swift.Optional&lt;FirstApp.Pergunta&gt;"
+                  moduleName = "FirstApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/carolinaortega/git/FirstApp%204.0.3/FirstApp/PopUpViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  uuid = "C3A63D76-22BD-4D72-B9D2-DF35BF269D9E - 793f4c544203cd75"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FirstApp.PopUpViewController.pergunta.modify : Swift.Optional&lt;FirstApp.Pergunta&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "FirstApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/carolinaortega/git/FirstApp%204.0.3/FirstApp/PopUpViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "8">
+               </Location>
+               <Location
+                  uuid = "C3A63D76-22BD-4D72-B9D2-DF35BF269D9E - d3dfc3b39854a4a8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FirstApp.PopUpViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; FirstApp.PopUpViewController"
+                  moduleName = "FirstApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/carolinaortega/git/FirstApp%204.0.3/FirstApp/PopUpViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "679">
+               </Location>
+               <Location
+                  uuid = "C3A63D76-22BD-4D72-B9D2-DF35BF269D9E - 20f50defbde8edb3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FirstApp.PopUpViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;FirstApp.PopUpViewController&gt;"
+                  moduleName = "FirstApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/carolinaortega/git/FirstApp%204.0.3/FirstApp/PopUpViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "623">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

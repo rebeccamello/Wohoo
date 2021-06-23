@@ -1,0 +1,54 @@
+[
+    {
+        "nomePergunta": "Qual a importância do logo para minha empresa?",
+        "resposta": "O logo representa visualmente a identidade que sua marca possui. Ele será estampado em outdoors, banners, embalagens e precisa ser feito de maneira pensada a impactar o consumidor de seu serviço/produto de maneira memorável.",
+        "isFavorito": false
+        
+    },
+    {
+        "nomePergunta": "Existem alguns passos que podemos seguir para criar um logo? Se sim, quais?",
+        "resposta": "Sim! O processo criativo de um logo envolve alguns direcionamentos que podemos seguir para que as probabilidades de sucesso sejam maiores, que é pensar em uma identidade visual que envolva: simplicidade, relevância, tradição, distinção, memória, flexibilidade e centralização de ideias num só elemento.",
+        "isFavorito": false
+    },
+    {
+        "nomePergunta": "Logo e marca, qual a diferença entre eles?",
+        "resposta": "Logo se refere mais no que se diz respeito à identidade visual da sua marca. A marca engloba tudo, inclusive o logo, mas também identidade verbal, plano de ações, marketing, branding. O que de fato representa o produto ou serviço que está sendo ofertado.",
+        "isFavorito": false
+    },
+    {
+        "nomePergunta": "Posso utilizar inspirações de outros logos?",
+        "resposta": "Sim! Tudo bem buscar inspiração em outros logos para a criação do seu próprio. Existem convenções e tradições bastante usadas no design que podem lhe ajudar a criar uma ideia que seja positiva e segura. Quanto mais referências, melhor!",
+        "isFavorito": false
+    },
+    {
+        "nomePergunta": "Alguém pode indicar um site para gerar logos?",
+        "resposta": "Recomendo esse site aqui: https://www.canva.com/pt_br pois além de gerar um logo automaticamente, ele ainda possui diversos templates que podem ser estilizados e personalizados de acordo com o que você deseja.",
+        "isFavorito": false
+    },
+    {
+        "nomePergunta": "O que é mais indicado? Um logo minimalista ou mais elaborado?",
+        "resposta": "Depende muito do tipo de negócio que está sendo ofertado, mas ultimamente algumas empresas grandes têm apostado no minimalismo e modificado seus logos antigos, como o Nubank, por exemplo.",
+        "isFavorito": false
+    },
+    {
+        "nomePergunta": "Logo é uma identidade visual?",
+        "resposta": "Sim! O logo será responsável por atribuir à sua marca uma característica única, o que será estampado em todos os canais de divulgação e associado diretamente ao produto/serviço que está sendo ofertado.",
+        "isFavorito": false
+    },
+    {
+        "nomePergunta": "Logo pode ser uma identidade verbal?",
+        "resposta": "Apesar de muita gente confudir slogan com logo, não são a mesma coisa. A identidade verbal dá-se pelo slogan, que é basicamente aquela frase de efeito que costumamos ouvir, como por exemplo o ”amo muito tudo isso” do Mc Donald's.",
+        "isFavorito": false
+    },
+    {
+        "nomePergunta": "Qual a diferença entre logotipo e logomarca?",
+        "resposta": "Logotipo se dá pela representação da empresa feita por meio de seu nome estilizado, a logomarca é uma mistura do nome da empresa com o símbolo que a representa.",
+        "isFavorito": false
+    },
+    {
+        "nomePergunta": "Como um logo pode impactar negativamente o meu negócio?",
+        "resposta": "Dependendo de como o logo foi feito, pode conter muitas informações, por exemplo, e impedir que o consumidor consiga entender a mensagem passada e, portanto, isso pode ser bastante prejudicial para a marca.",
+        "isFavorito": false
+    }
+]
+ 

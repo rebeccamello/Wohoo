@@ -1,0 +1,54 @@
+[
+    {
+        "nomePergunta": "Qual a importância de se ter um propósito para criação de uma marca?",
+        "resposta": "É importante saber com o que será trabalhado, com quem pretende-se atingir com aquele produto ou serviço, e, mais ainda, a razão de se estar comercializando aquilo. Um propósito servirá para guiar pesquisas de mercado e arquitetar planos de ação por meio de um branding.",
+        "isFavorito": false
+    },
+    {
+        "nomePergunta": "O que significa avaliar a lembrança de uma marca?",
+        "resposta": "É um tipo de questionário utilizado com um consumidor para verificar se sua marca é memorável e lembrada por quem a vê.",
+        "isFavorito": false
+    },
+    {
+        "nomePergunta": "O que é INPI? Vi isso relacionado com marca e fiquei em dúvida",
+        "resposta": "INPI é de Instituto Nacional de Propriedade Industrial e sempre que surgir a ideia para uma marca, recomenda-se fazer uma pesquisa junto ao INPI para verificar se está disponível para registro. ",
+        "isFavorito": false
+    },
+    {
+        "nomePergunta": "Qual a vantagem de se ter uma marca registrada?",
+        "resposta": "Registrar a marca é importante para evitar que ela possa ser usada por outras empresas. Em geral somente as registradas conseguem gerar algum tipo de receita ou renda por meio de licenciamento, franquia ou venda. ",
+        "isFavorito": false
+    },
+    {
+        "nomePergunta": "Quais são os direitos e deveres do titular de uma marca registrada?",
+        "resposta": "O registro da marca lhe dá o poder de uso exclusivo sobre ela em todo o país por dez anos e pode ser prorrogada desde que o titular solicite.  ",
+        "isFavorito": false
+    },
+    {
+        "nomePergunta": "Posso usar meu sobrenome como o nome da minha empresa?",
+        "resposta": "Não, sobrenomes iguais são muito comuns e nada garante que já não exista uma marca registrada com o sobrenome de outra pessoa que por coincidência é igual ao seu. ",
+        "isFavorito": false
+    },
+    {
+        "nomePergunta": "É caro registrar uma marca?",
+        "resposta": "Em torno de mil reais, aproximadamente, mas olhando ao prejuízo que possa ocorrer na ausência de registrá-la, acaba compensando. ",
+        "isFavorito": false
+    },
+    {
+        "nomePergunta": "Quem pode registrar uma marca?",
+        "resposta": "O INPI estabelece que para registrar uma marca você comprove que trabalha ativamente com aquele segmento específico, por conta disso, normalmente quem costuma registrar são empresas. ",
+        "isFavorito": false
+    },
+    {
+        "nomePergunta": "Uma pessoa física pode registrar a marca?",
+        "resposta": "Sim! Um profissional autônomo, por exemplo, consegue tranquilamente. O INPI só exige que exista comprovação de que a atividade está sendo exercida pelo profissional e que seja compatível com o segmento da marca que ele pretende registrar.  ",
+        "isFavorito": false
+    },
+    {
+        "nomePergunta": "Quando ocorre a perda do direito sobre a marca registrada?",
+        "resposta": "A perda ocorre pela expiração do prazo de vigência, renúncia ou caducidade ou por falta de observação do disposto no art. 217 da LPI(Lei da Propriedade Industrial). ",
+        "isFavorito": false
+    }
+    
+    
+]

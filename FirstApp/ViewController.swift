@@ -12,9 +12,6 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var segmentedControl: UISegmentedControl!
     
-    var perguntasTitulo: UILabel = UILabel(frame: .zero)
-    var favoritosTitulo: UILabel = UILabel(frame: .zero)
-    var fotoLogo: UIImageView = UIImageView(image: #imageLiteral(resourceName: "logoWohoo.png"))
     @IBOutlet weak var tableView: UITableView!
   
     var perguntas:[Pergunta] = Pergunta.logos
@@ -23,24 +20,8 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.addSubview(perguntasTitulo)
-        view.addSubview(fotoLogo)
 
-        perguntasTitulo.text = "Respostas"
-        perguntasTitulo.font = UIFont.systemFont(ofSize: 27.0, weight: .semibold)
-        perguntasTitulo.translatesAutoresizingMaskIntoConstraints = false
-        perguntasTitulo.centerXAnchor.constraint(equalTo: view.centerXAnchor, constant: 97).isActive = true
-        perguntasTitulo.topAnchor.constraint(equalTo: view.topAnchor, constant: 85).isActive = true
-        
-        
-        fotoLogo.translatesAutoresizingMaskIntoConstraints = false
-        fotoLogo.centerXAnchor.constraint(equalTo: view.centerXAnchor, constant: 120).isActive = true
-        fotoLogo.topAnchor.constraint(equalTo: view.topAnchor, constant: 80).isActive = true
-        fotoLogo.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 35).isActive = true
-        fotoLogo.trailingAnchor.constraint(equalTo: perguntasTitulo.leadingAnchor, constant: -10).isActive = true
-        fotoLogo.heightAnchor.constraint(equalToConstant: 40).isActive = true
-        fotoLogo.widthAnchor.constraint(equalToConstant: 180).isActive = true
-        
+        navigationController?.navigationBar.prefersLargeTitles = true
         
         self.tableView.rowHeight = 70
        
@@ -73,7 +54,6 @@ class ViewController: UIViewController {
 
 extension ViewController: UITableViewDataSource{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        print(perguntas.count)
         return perguntas.count
     }
     

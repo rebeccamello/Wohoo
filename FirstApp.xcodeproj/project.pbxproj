@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		99F18B4E266984ED00884F10 /* marca.json in Resources */ = {isa = PBXBuildFile; fileRef = 99F18B4D266984ED00884F10 /* marca.json */; };
 		99F18B512669851000884F10 /* servico.json in Resources */ = {isa = PBXBuildFile; fileRef = 99F18B502669851000884F10 /* servico.json */; };
+		9D2D86622683A56900B1C01F /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2D86612683A56900B1C01F /* HelpViewController.swift */; };
+		9D3D048F26836D2B008D237A /* FirstScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3D048E26836D2B008D237A /* FirstScreenViewController.swift */; };
 		9D4F526F268234D0000A8281 /* pergunta.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D4F526D268234D0000A8281 /* pergunta.png */; };
 		9D4F5270268234D0000A8281 /* logoWohoo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D4F526E268234D0000A8281 /* logoWohoo.png */; };
 		A00A8FF4267BFAF50042F249 /* populares.json in Resources */ = {isa = PBXBuildFile; fileRef = A00A8FF3267BFAF50042F249 /* populares.json */; };
@@ -29,6 +31,8 @@
 /* Begin PBXFileReference section */
 		99F18B4D266984ED00884F10 /* marca.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = marca.json; sourceTree = "<group>"; };
 		99F18B502669851000884F10 /* servico.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = servico.json; sourceTree = "<group>"; };
+		9D2D86612683A56900B1C01F /* HelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+		9D3D048E26836D2B008D237A /* FirstScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreenViewController.swift; sourceTree = "<group>"; };
 		9D4F526D268234D0000A8281 /* pergunta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pergunta.png; sourceTree = "<group>"; };
 		9D4F526E268234D0000A8281 /* logoWohoo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoWohoo.png; sourceTree = "<group>"; };
 		A00A8FF3267BFAF50042F249 /* populares.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = populares.json; sourceTree = "<group>"; };
@@ -81,6 +85,8 @@
 				9D4F526E268234D0000A8281 /* logoWohoo.png */,
 				9D4F526D268234D0000A8281 /* pergunta.png */,
 				A0A0EFFE2665534200DA1ECF /* Main.storyboard */,
+				9D2D86612683A56900B1C01F /* HelpViewController.swift */,
+				9D3D048E26836D2B008D237A /* FirstScreenViewController.swift */,
 				A0A0F0032665534400DA1ECF /* LaunchScreen.storyboard */,
 				A03240C4266978AB0014E308 /* ReadContent.swift */,
 				A0A0EFF82665534200DA1ECF /* AppDelegate.swift */,
@@ -184,6 +190,8 @@
 				A0A0EFF92665534200DA1ECF /* AppDelegate.swift in Sources */,
 				A0A0EFFB2665534200DA1ECF /* SceneDelegate.swift in Sources */,
 				A03240C6266978AB0014E308 /* Perguntas.swift in Sources */,
+				9D3D048F26836D2B008D237A /* FirstScreenViewController.swift in Sources */,
+				9D2D86622683A56900B1C01F /* HelpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

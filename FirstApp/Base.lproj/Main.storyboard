@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="duE-e2-Eiu">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="7rf-gc-VBy">
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
@@ -13,20 +13,20 @@
             <objects>
                 <viewController id="y2u-zk-Pdf" customClass="ViewController" customModule="FirstApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fcd-bh-oh7">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="54" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" contentViewInsetsToSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qgT-1x-snR">
-                                <rect key="frame" x="32" y="216" width="326" height="520"/>
+                                <rect key="frame" x="32" y="182" width="326" height="500"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="520" id="wl1-9Z-gmS"/>
+                                    <constraint firstAttribute="height" constant="500" id="wl1-9Z-gmS"/>
                                 </constraints>
                                 <viewLayoutGuide key="contentLayoutGuide" id="fy4-tR-e3t"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="bnO-4S-PUw"/>
                                 <sections/>
                             </tableView>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="9AY-pG-AXL">
-                                <rect key="frame" x="32" y="168" width="326" height="32"/>
+                                <rect key="frame" x="32" y="136" width="326" height="32"/>
                                 <segments>
                                     <segment title="Logo"/>
                                     <segment title="Marca"/>
@@ -57,14 +57,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jom-XR-t7f" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="100" y="-280"/>
+            <point key="canvasLocation" x="788" y="-292"/>
         </scene>
         <!--Pop Up View Controller-->
         <scene sceneID="ZWm-bV-sOK">
             <objects>
                 <viewController storyboardIdentifier="popUpviewcontroller" wantsFullScreenLayout="YES" modalPresentationStyle="fullScreen" interfaceStyle="light" id="BHa-4W-Abp" customClass="PopUpViewController" customModule="FirstApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="p3f-gr-pRH">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3G9-RJ-s8C">
@@ -96,15 +96,6 @@
                                         <rect key="frame" x="-1" y="-46" width="53" height="97"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gZe-gK-hDA">
-                                        <rect key="frame" x="262" y="435" width="96" height="32"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="18"/>
-                                        <color key="tintColor" red="0.27843137254901962" green="0.0" blue="0.65490196078431373" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <state key="normal" title=" Curtir" image="heart" catalog="system">
-                                            <color key="titleColor" systemColor="labelColor"/>
-                                        </state>
-                                    </button>
                                 </subviews>
                             </view>
                         </subviews>
@@ -113,7 +104,6 @@
                     </view>
                     <navigationItem key="navigationItem" id="4Y4-kO-Db1"/>
                     <connections>
-                        <outlet property="botaoFavoritos" destination="gZe-gK-hDA" id="haf-A4-M9p"/>
                         <outlet property="horario" destination="HPV-FV-BKb" id="Y1Y-pB-yQq"/>
                         <outlet property="resposta" destination="rdO-jd-1zB" id="TC2-Hi-oYg"/>
                         <outlet property="titulo" destination="nNJ-m4-agr" id="cw7-Wn-fp1"/>
@@ -121,21 +111,21 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="egM-dB-3Fv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="984.61538461538453" y="49.763033175355446"/>
+            <point key="canvasLocation" x="1743" y="50"/>
         </scene>
         <!--Em Alta-->
         <scene sceneID="2hC-cJ-G8Y">
             <objects>
                 <viewController id="TrE-FS-WZC" customClass="FavoritosViewController" customModule="FirstApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GLY-xn-YOs">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="54" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="qsW-YG-gUd">
-                                <rect key="frame" x="32" y="151" width="326" height="585"/>
+                                <rect key="frame" x="32" y="117" width="326" height="565"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="585" id="2bY-aW-tRA"/>
+                                    <constraint firstAttribute="height" constant="565" id="2bY-aW-tRA"/>
                                 </constraints>
                                 <viewLayoutGuide key="contentLayoutGuide" id="pCE-cT-6tY"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="m9F-FU-efY"/>
@@ -159,28 +149,130 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6bs-7L-JAp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="100" y="385"/>
+            <point key="canvasLocation" x="788" y="397"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="dMz-WB-FyC">
             <objects>
                 <navigationController id="duE-e2-Eiu" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Dpr-G9-HzH"/>
                     <navigationBar key="navigationBar" alpha="0.94999999999999996" contentMode="scaleToFill" backIndicatorImage="chevron.left" catalog="system" id="eRp-MG-qYc">
-                        <rect key="frame" x="0.0" y="44" width="390" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="56"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="53I-Gq-FjE" kind="relationship" relationship="rootViewController" id="zwX-Oc-mxw"/>
+                        <segue destination="53I-Gq-FjE" kind="relationship" relationship="rootViewController" id="dp3-yT-Tx2"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TIQ-bl-HuS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1618" y="50"/>
+            <point key="canvasLocation" x="-898" y="50"/>
+        </scene>
+        <!--Help View Controller-->
+        <scene sceneID="jBu-IN-mMk">
+            <objects>
+                <viewController id="5te-wS-S1M" customClass="HelpViewController" customModule="FirstApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VEt-9t-xxN">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logoWohoo.png" translatesAutoresizingMaskIntoConstraints="NO" id="fJ2-of-13z">
+                                <rect key="frame" x="75" y="60" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aLi-Uf-WDH">
+                                <rect key="frame" x="20" y="33" width="60" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <state key="normal" title="Voltar" image="chevron.backward" catalog="system">
+                                    <color key="titleColor" systemColor="labelColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="backButton:" destination="5te-wS-S1M" eventType="touchUpInside" id="bKP-gQ-0K5"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uZx-mx-9E4">
+                                <rect key="frame" x="26" y="271" width="339" height="248"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">Bem - vindos ao Wohoo, aqui você pode esclarecer suas dúvidas com apenas alguns clicks. Nessa plataforma você pode enviar sua dúvida e se conectar com inúmeros ícones do empreendedorismo.   Não perca tempo, aprenda com as dúvidas que já foram respondidas e também envie a sua.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="azf-X5-qaQ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="VAX-cG-Dqo"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fV9-ZH-WCX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-870.76923076923072" y="-609.24170616113736"/>
+        </scene>
+        <!--FirstScreenViewController-->
+        <scene sceneID="0LB-Kk-q1c">
+            <objects>
+                <viewController storyboardIdentifier="idFirst" title="FirstScreenViewController" id="7rf-gc-VBy" customClass="FirstScreenViewController" customModule="FirstApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hek-iL-N0j">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Um aplicativo que soluciona suas duvidas sobre Branding e te conecta com o mundo do empreendedorismo" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sot-2R-xQv">
+                                <rect key="frame" x="42" y="412" width="306" height="98"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dgh-bx-5kR">
+                                <rect key="frame" x="42" y="741" width="306" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.2792535424" green="0.0010164732809999999" blue="0.65494167800000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Acessar">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="duE-e2-Eiu" kind="show" animates="NO" id="Fzu-td-S0a"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logoWohoo.png" translatesAutoresizingMaskIntoConstraints="NO" id="Vyw-4w-SR1">
+                                <rect key="frame" x="25" y="263" width="340" height="183"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="266" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cE8-ZY-VbE">
+                                <rect key="frame" x="318" y="61.000000000000007" width="40" height="38.666666666666664"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="gyU-mZ-7Iw"/>
+                                    <constraint firstAttribute="height" constant="40" id="thh-ql-aav"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <state key="normal" backgroundImage="questionmark.circle" catalog="system"/>
+                                <connections>
+                                    <segue destination="5te-wS-S1M" kind="show" id="S0Y-LR-EDl"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="KGD-PP-OMJ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="KGD-PP-OMJ" firstAttribute="trailing" secondItem="cE8-ZY-VbE" secondAttribute="trailing" constant="32" id="ODz-a2-KGg"/>
+                            <constraint firstItem="cE8-ZY-VbE" firstAttribute="top" secondItem="KGD-PP-OMJ" secondAttribute="top" constant="16" id="X5o-uk-Bqd"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="6uC-5d-DEs"/>
+                    <connections>
+                        <outlet property="startButton" destination="Dgh-bx-5kR" id="q12-c3-D7c"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cea-vd-Yar" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1709" y="50"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="XnB-2e-yiD">
             <objects>
-                <tabBarController id="53I-Gq-FjE" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="idMainScreen" id="53I-Gq-FjE" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="Lb6-wP-sPm"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="03E-YU-2oj" colorLabel="IBBuiltInLabel-Purple">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
@@ -196,33 +288,20 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Grc-ys-KKd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-789" y="51"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="5MN-gU-41Q">
-            <objects>
-                <viewController id="58t-d1-dIx" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="BCw-8N-931">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="ALT-iN-LGp"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="YiS-LY-eVL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="352" y="-958"/>
+            <point key="canvasLocation" x="-88" y="50"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="2zT-vQ-TNQ"/>
+        <segue reference="jeJ-g6-pjG"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.27843137254901962" green="0.0" blue="0.65490196078431373" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
     <resources>
+        <image name="chevron.backward" catalog="system" width="96" height="128"/>
         <image name="chevron.left" catalog="system" width="96" height="128"/>
-        <image name="heart" catalog="system" width="128" height="109"/>
+        <image name="logoWohoo.png" width="195" height="45"/>
         <image name="note.text" catalog="system" width="128" height="106"/>
         <image name="pergunta.png" width="53" height="153"/>
+        <image name="questionmark.circle" catalog="system" width="128" height="121"/>
         <image name="rosette" catalog="system" width="106" height="128"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

@@ -27,28 +27,28 @@ class FavoritosViewController : UIViewController {
         favoritosTitulo.font = UIFont.systemFont(ofSize: 27.0, weight: .semibold)
         favoritosTitulo.text = "Em Alta"
         favoritosTitulo.translatesAutoresizingMaskIntoConstraints = false
-        favoritosTitulo.centerXAnchor.constraint(equalTo: view.centerXAnchor, constant: 97).isActive = true
-        favoritosTitulo.topAnchor.constraint(equalTo: view.topAnchor, constant: 112).isActive = true
+        favoritosTitulo.centerXAnchor.constraint(equalTo: view.centerXAnchor, constant: 110).isActive = true
+        favoritosTitulo.topAnchor.constraint(equalTo: view.topAnchor, constant: 85).isActive = true
         
 
         fotoLogoFavoritos.translatesAutoresizingMaskIntoConstraints = false
         fotoLogoFavoritos.centerXAnchor.constraint(equalTo: view.centerXAnchor, constant: 120).isActive = true
-        fotoLogoFavoritos.topAnchor.constraint(equalTo: view.topAnchor, constant: 104).isActive = true
+        fotoLogoFavoritos.topAnchor.constraint(equalTo: view.topAnchor, constant: 80).isActive = true
         fotoLogoFavoritos.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 35).isActive = true
-        fotoLogoFavoritos.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -165).isActive = true
+        fotoLogoFavoritos.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -176).isActive = true
+        fotoLogoFavoritos.heightAnchor.constraint(equalToConstant: 40).isActive = true
+        fotoLogoFavoritos.widthAnchor.constraint(equalToConstant: 180).isActive = true
         
         
         self.tableFavoritos.rowHeight = 70
         tableFavoritos.delegate = self
         tableFavoritos.dataSource = self
         tableFavoritos.register(Particle.self, forCellReuseIdentifier: rowIdentifier)
+    }
+}
 
-        
-}
-}
 extension FavoritosViewController: UITableViewDataSource{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        print(perguntas.count)
         return perguntas.count
     }
     
@@ -67,7 +67,6 @@ extension FavoritosViewController: UITableViewDelegate{
         let vc = PopUpViewController()
         vc.pergunta = perguntas[indexPath.row]
         
-    
         self.performSegue(withIdentifier: "conexao2", sender: indexPath.row)
         
     }

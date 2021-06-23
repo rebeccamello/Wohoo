@@ -30,12 +30,12 @@ class ViewController: UIViewController {
         perguntasTitulo.font = UIFont.systemFont(ofSize: 27.0, weight: .semibold)
         perguntasTitulo.translatesAutoresizingMaskIntoConstraints = false
         perguntasTitulo.centerXAnchor.constraint(equalTo: view.centerXAnchor, constant: 97).isActive = true
-        perguntasTitulo.topAnchor.constraint(equalTo: view.topAnchor, constant: 118).isActive = true
+        perguntasTitulo.topAnchor.constraint(equalTo: view.topAnchor, constant: 85).isActive = true
         
         
         fotoLogo.translatesAutoresizingMaskIntoConstraints = false
         fotoLogo.centerXAnchor.constraint(equalTo: view.centerXAnchor, constant: 120).isActive = true
-        fotoLogo.topAnchor.constraint(equalTo: view.topAnchor, constant: 112).isActive = true
+        fotoLogo.topAnchor.constraint(equalTo: view.topAnchor, constant: 80).isActive = true
         fotoLogo.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 35).isActive = true
         fotoLogo.trailingAnchor.constraint(equalTo: perguntasTitulo.leadingAnchor, constant: -10).isActive = true
         fotoLogo.heightAnchor.constraint(equalToConstant: 40).isActive = true

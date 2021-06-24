@@ -12,7 +12,6 @@
 		9D2D86622683A56900B1C01F /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2D86612683A56900B1C01F /* HelpViewController.swift */; };
 		9D3D048F26836D2B008D237A /* FirstScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3D048E26836D2B008D237A /* FirstScreenViewController.swift */; };
 		9D4F526F268234D0000A8281 /* pergunta.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D4F526D268234D0000A8281 /* pergunta.png */; };
-		9D4F5270268234D0000A8281 /* logoWohoo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D4F526E268234D0000A8281 /* logoWohoo.png */; };
 		A00A8FF4267BFAF50042F249 /* populares.json in Resources */ = {isa = PBXBuildFile; fileRef = A00A8FF3267BFAF50042F249 /* populares.json */; };
 		A03240C6266978AB0014E308 /* Perguntas.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03240C3266978AB0014E308 /* Perguntas.swift */; };
 		A03240C7266978AB0014E308 /* ReadContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03240C4266978AB0014E308 /* ReadContent.swift */; };
@@ -34,7 +33,6 @@
 		9D2D86612683A56900B1C01F /* HelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
 		9D3D048E26836D2B008D237A /* FirstScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreenViewController.swift; sourceTree = "<group>"; };
 		9D4F526D268234D0000A8281 /* pergunta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pergunta.png; sourceTree = "<group>"; };
-		9D4F526E268234D0000A8281 /* logoWohoo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoWohoo.png; sourceTree = "<group>"; };
 		A00A8FF3267BFAF50042F249 /* populares.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = populares.json; sourceTree = "<group>"; };
 		A03240C3266978AB0014E308 /* Perguntas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Perguntas.swift; sourceTree = "<group>"; };
 		A03240C4266978AB0014E308 /* ReadContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadContent.swift; sourceTree = "<group>"; };
@@ -63,6 +61,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9D2D86672684C05100B1C01F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A03240C3266978AB0014E308 /* Perguntas.swift */,
+				A03240C5266978AB0014E308 /* Particle.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		9D2D86682684C06100B1C01F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9D2D86612683A56900B1C01F /* HelpViewController.swift */,
+				9D3D048E26836D2B008D237A /* FirstScreenViewController.swift */,
+				A0A0EFFC2665534200DA1ECF /* ViewController.swift */,
+				A0BFA446266A92A200E41287 /* PopUpViewController.swift */,
+				A0BFA44A266AA26400E41287 /* FavoritosViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9D2D86692684C08B00B1C01F /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				A0A0F0012665534400DA1ECF /* Assets.xcassets */,
+				9D4F526D268234D0000A8281 /* pergunta.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		9D2D866A2684C0A700B1C01F /* Json */ = {
+			isa = PBXGroup;
+			children = (
+				A09DD22D266827060040E751 /* data.json */,
+				99F18B4D266984ED00884F10 /* marca.json */,
+				99F18B502669851000884F10 /* servico.json */,
+				A00A8FF3267BFAF50042F249 /* populares.json */,
+			);
+			path = Json;
+			sourceTree = "<group>";
+		};
+		9D2D866B2684C0BB00B1C01F /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				A0A0EFFE2665534200DA1ECF /* Main.storyboard */,
+				A0A0F0032665534400DA1ECF /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
 		A0A0EFEC2665534200DA1ECF = {
 			isa = PBXGroup;
 			children = (
@@ -82,26 +130,15 @@
 		A0A0EFF72665534200DA1ECF /* FirstApp */ = {
 			isa = PBXGroup;
 			children = (
-				9D4F526E268234D0000A8281 /* logoWohoo.png */,
-				9D4F526D268234D0000A8281 /* pergunta.png */,
-				A0A0EFFE2665534200DA1ECF /* Main.storyboard */,
-				9D2D86612683A56900B1C01F /* HelpViewController.swift */,
-				9D3D048E26836D2B008D237A /* FirstScreenViewController.swift */,
-				A0A0F0032665534400DA1ECF /* LaunchScreen.storyboard */,
+				9D2D866B2684C0BB00B1C01F /* Storyboards */,
+				9D2D866A2684C0A700B1C01F /* Json */,
+				9D2D86692684C08B00B1C01F /* Assets */,
+				9D2D86672684C05100B1C01F /* Classes */,
+				9D2D86682684C06100B1C01F /* ViewControllers */,
 				A03240C4266978AB0014E308 /* ReadContent.swift */,
 				A0A0EFF82665534200DA1ECF /* AppDelegate.swift */,
 				A0A0EFFA2665534200DA1ECF /* SceneDelegate.swift */,
-				A03240C3266978AB0014E308 /* Perguntas.swift */,
-				A03240C5266978AB0014E308 /* Particle.swift */,
-				A0A0EFFC2665534200DA1ECF /* ViewController.swift */,
-				A0BFA446266A92A200E41287 /* PopUpViewController.swift */,
-				A0BFA44A266AA26400E41287 /* FavoritosViewController.swift */,
-				A09DD22D266827060040E751 /* data.json */,
-				99F18B4D266984ED00884F10 /* marca.json */,
-				99F18B502669851000884F10 /* servico.json */,
-				A00A8FF3267BFAF50042F249 /* populares.json */,
 				A0A0F0062665534400DA1ECF /* Info.plist */,
-				A0A0F0012665534400DA1ECF /* Assets.xcassets */,
 			);
 			path = FirstApp;
 			sourceTree = "<group>";
@@ -164,7 +201,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A00A8FF4267BFAF50042F249 /* populares.json in Resources */,
-				9D4F5270268234D0000A8281 /* logoWohoo.png in Resources */,
 				A0A0F0052665534400DA1ECF /* LaunchScreen.storyboard in Resources */,
 				99F18B4E266984ED00884F10 /* marca.json in Resources */,
 				A0A0F0022665534400DA1ECF /* Assets.xcassets in Resources */,

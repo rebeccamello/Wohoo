@@ -28,6 +28,7 @@ class PopUpViewController: UIViewController, UIGestureRecognizerDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
 //        self.navigationController?.navigationBar.backItem?.title = "Back"
 //        self.definesPresentationContext = true
         resposta.text = pergunta?.resposta

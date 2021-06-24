@@ -16,12 +16,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logoWohoo.png" translatesAutoresizingMaskIntoConstraints="NO" id="uDL-B0-Pcj">
-                                <rect key="frame" x="75" y="108" width="240" height="128"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="DdB-gj-D58">
+                                <rect key="frame" x="53" y="80" width="285" height="160"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a10-Wo-Tvh">
-                                <rect key="frame" x="21" y="282" width="348" height="248"/>
+                                <rect key="frame" x="21" y="258" width="348" height="248"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <mutableString key="text">Bem-vindos ao Wohoo, aqui você pode esclarecer suas dúvidas com apenas alguns clicks. Nessa plataforma você pode enviar sua dúvida e se conectar com inúmeros ícones do empreendedorismo.   Não perca tempo, aprenda com as dúvidas que já foram respondidas e também envie a sua.</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -36,7 +36,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3A2-ZX-dO7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2598" y="-939"/>
+            <point key="canvasLocation" x="2654" y="-813"/>
         </scene>
         <!--Respostas-->
         <scene sceneID="JbE-YT-bIB">
@@ -176,11 +176,11 @@
                             <constraint firstItem="qsW-YG-gUd" firstAttribute="leading" secondItem="cRN-hU-OBg" secondAttribute="leading" constant="32" id="g9O-Ze-XJY"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Em Alta" largeTitleDisplayMode="always" id="BGd-bf-9ru">
-                        <barButtonItem key="rightBarButtonItem" image="questionmark.circle" catalog="system" id="ZbX-BU-mFb">
+                    <navigationItem key="navigationItem" title="Em Alta" largeTitleDisplayMode="always" id="qPg-Z5-Loa">
+                        <barButtonItem key="rightBarButtonItem" image="questionmark.circle" catalog="system" id="7xy-2V-ZHY">
                             <color key="tintColor" red="0.2792535424" green="0.0010164732809999999" blue="0.65494167800000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             <connections>
-                                <segue destination="ccI-JF-lZ0" kind="show" id="eP8-3h-zQr"/>
+                                <segue destination="ccI-JF-lZ0" kind="show" id="Crs-jO-bfI"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -201,10 +201,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logoWohoo.png" translatesAutoresizingMaskIntoConstraints="NO" id="Mlw-mH-n2V">
-                                <rect key="frame" x="75" y="97" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qhh-eS-slO">
                                 <rect key="frame" x="26" y="263" width="348" height="248"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -213,6 +209,10 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="eTk-xr-gh1">
+                                <rect key="frame" x="53" y="80" width="285" height="160"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="kHe-2f-fqH"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -221,7 +221,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HUy-mB-AvL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2654" y="700"/>
+            <point key="canvasLocation" x="2654" y="820"/>
         </scene>
         <!--Help View Controller-->
         <scene sceneID="jBu-IN-mMk">
@@ -242,10 +242,6 @@
                                     <action selector="backButton:" destination="5te-wS-S1M" eventType="touchUpInside" id="bKP-gQ-0K5"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logoWohoo.png" translatesAutoresizingMaskIntoConstraints="NO" id="fJ2-of-13z">
-                                <rect key="frame" x="75" y="95" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jke-zW-as8">
                                 <rect key="frame" x="21" y="264" width="348" height="248"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -254,6 +250,10 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="fJ2-of-13z">
+                                <rect key="frame" x="53" y="82" width="285" height="160"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="azf-X5-qaQ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -290,10 +290,6 @@
                                     <segue destination="53I-Gq-FjE" kind="show" id="c7v-97-da5"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logoWohoo.png" translatesAutoresizingMaskIntoConstraints="NO" id="Vyw-4w-SR1">
-                                <rect key="frame" x="25" y="263" width="340" height="183"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="266" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cE8-ZY-VbE">
                                 <rect key="frame" x="318" y="61.000000000000007" width="40" height="38.666666666666664"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -307,6 +303,10 @@
                                     <segue destination="5te-wS-S1M" kind="show" id="S0Y-LR-EDl"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="zms-fq-p6o">
+                                <rect key="frame" x="26" y="235" width="339" height="194"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="KGD-PP-OMJ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -322,7 +322,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cea-vd-Yar" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1709" y="50"/>
+            <point key="canvasLocation" x="-1706.1538461538462" y="49.763033175355446"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="XnB-2e-yiD">
@@ -390,7 +390,7 @@
     <color key="tintColor" red="0.27843137254901962" green="0.0" blue="0.65490196078431373" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
     <resources>
         <image name="chevron.backward" catalog="system" width="96" height="128"/>
-        <image name="logoWohoo.png" width="195" height="45"/>
+        <image name="logo" width="1236" height="249"/>
         <image name="note.text" catalog="system" width="128" height="106"/>
         <image name="pergunta.png" width="53" height="153"/>
         <image name="questionmark.circle" catalog="system" width="128" height="121"/>

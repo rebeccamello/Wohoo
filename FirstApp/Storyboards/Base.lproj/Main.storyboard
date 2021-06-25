@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logoBranco" translatesAutoresizingMaskIntoConstraints="NO" id="DdB-gj-D58">
-                                <rect key="frame" x="53" y="80" width="285" height="160"/>
+                                <rect key="frame" x="53" y="97" width="285" height="160"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a10-Wo-Tvh">
@@ -37,7 +37,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3A2-ZX-dO7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2654" y="-813"/>
+            <point key="canvasLocation" x="1792" y="1257"/>
         </scene>
         <!--Respostas-->
         <scene sceneID="JbE-YT-bIB">
@@ -446,10 +446,10 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Respostas" largeTitleDisplayMode="always" id="vE4-Vk-mco">
-                        <barButtonItem key="rightBarButtonItem" image="questionmark.circle" catalog="system" id="qkj-OU-NOr">
+                        <barButtonItem key="rightBarButtonItem" image="questionmark.circle" catalog="system" id="iEH-Qa-MjV">
                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
-                                <segue destination="pqv-ZB-zak" kind="show" id="y5p-KV-cmC"/>
+                                <segue destination="pqv-ZB-zak" kind="show" id="fmY-UW-kPE"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>

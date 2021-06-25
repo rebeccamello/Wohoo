@@ -8,7 +8,8 @@
 import UIKit
 class CollectionViewController: UIViewController {
     let images = ["capaLogo", "capaMarcas", "capaServico"]
-
+    let questions = ["Qual a importância do logo para minha empresa?", "Qual a importância de se ter um propósito para criação de uma marca?", "Quanto custa pra fazer um logo para minha empresa?", "Teste"]
+    
     var perguntas:[Pergunta] = Pergunta.logos
     
     var selectedIndex: Int = 0

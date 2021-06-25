@@ -358,7 +358,7 @@
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Rby-TO-hHe">
                                 <rect key="frame" x="0.0" y="88" width="390" height="756"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" red="0.2792535424" green="0.0010164732809999999" blue="0.65494167800000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="KKc-gq-3QH">
                                     <size key="itemSize" width="390" height="286"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -387,14 +387,14 @@
                                                             <rect key="frame" x="23" y="23" width="302" height="123"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                            <color key="textColor" red="0.92525942979999998" green="0.92525942979999998" blue="0.92525942979999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                     </subviews>
                                                     <color key="backgroundColor" systemColor="separatorColor"/>
                                                     <constraints>
                                                         <constraint firstAttribute="trailing" secondItem="AFo-ra-Asw" secondAttribute="trailing" id="2JI-aI-0bR"/>
-                                                        <constraint firstAttribute="height" constant="200" id="76H-j2-rgJ"/>
+                                                        <constraint firstAttribute="height" constant="180" id="76H-j2-rgJ"/>
                                                         <constraint firstAttribute="width" constant="350" id="Ic1-ow-mNa"/>
                                                         <constraint firstAttribute="bottom" secondItem="AFo-ra-Asw" secondAttribute="bottom" id="MAj-hZ-Vty"/>
                                                         <constraint firstItem="AFo-ra-Asw" firstAttribute="top" secondItem="Gcn-21-fm5" secondAttribute="top" id="RiR-bX-nPp"/>
@@ -424,7 +424,7 @@
                             </collectionView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="0n0-xs-SNi"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.2792535424" green="0.0010164732809999999" blue="0.65494167800000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="Rby-TO-hHe" secondAttribute="bottom" id="7Xr-UG-drT"/>
                             <constraint firstItem="Rby-TO-hHe" firstAttribute="leading" secondItem="0n0-xs-SNi" secondAttribute="leading" id="XF9-3Z-PcO"/>
@@ -432,7 +432,7 @@
                             <constraint firstItem="Rby-TO-hHe" firstAttribute="top" secondItem="0n0-xs-SNi" secondAttribute="top" id="jnT-ku-F8b"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Respostas" largeTitleDisplayMode="always" id="BkB-J8-d9Z"/>
+                    <navigationItem key="navigationItem" title="Respostas" largeTitleDisplayMode="always" id="vE4-Vk-mco"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JvB-A4-BIJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -484,6 +484,15 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="eEA-Bn-C37">
                         <rect key="frame" x="0.0" y="44" width="390" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.2792535424" green="0.0010164732809999999" blue="0.65494167800000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="textShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>

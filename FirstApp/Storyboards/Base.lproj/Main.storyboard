@@ -14,10 +14,10 @@
             <objects>
                 <viewController id="pqv-ZB-zak" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="O6Q-7B-F2M">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="DdB-gj-D58">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logoBranco" translatesAutoresizingMaskIntoConstraints="NO" id="DdB-gj-D58">
                                 <rect key="frame" x="53" y="80" width="285" height="160"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -26,12 +26,12 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Bem-vindos ao Wohoo, aqui você pode esclarecer suas dúvidas com apenas alguns clicks. Nessa plataforma você pode enviar sua dúvida e se conectar com inúmeros ícones do empreendedorismo.   Não perca tempo, aprenda com as dúvidas que já foram respondidas e também envie a sua.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="8JZ-uk-46d"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.2792535424" green="0.0010164732809999999" blue="0.65494167800000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="sW5-F0-xWG"/>
                 </viewController>
@@ -81,9 +81,6 @@
                     <navigationItem key="navigationItem" title="Respostas" largeTitleDisplayMode="always" id="qlM-sT-CaD">
                         <barButtonItem key="rightBarButtonItem" image="questionmark.circle" catalog="system" id="WW0-Cf-4qN">
                             <color key="tintColor" red="0.2792535424" green="0.0010164732809999999" blue="0.65494167800000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                            <connections>
-                                <segue destination="pqv-ZB-zak" kind="show" id="TI2-TA-uwr"/>
-                            </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
@@ -448,7 +445,14 @@
                             <constraint firstItem="Rby-TO-hHe" firstAttribute="top" secondItem="8oB-a1-Whw" secondAttribute="top" constant="59" id="jnT-ku-F8b"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Respostas" largeTitleDisplayMode="always" id="vE4-Vk-mco"/>
+                    <navigationItem key="navigationItem" title="Respostas" largeTitleDisplayMode="always" id="vE4-Vk-mco">
+                        <barButtonItem key="rightBarButtonItem" image="questionmark.circle" catalog="system" id="qkj-OU-NOr">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <segue destination="pqv-ZB-zak" kind="show" id="y5p-KV-cmC"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="collectionView" destination="Rby-TO-hHe" id="UHF-PA-Lwp"/>
                         <outlet property="segmentedOutlet" destination="8oB-a1-Whw" id="nst-n8-2bL"/>
@@ -527,7 +531,7 @@
     <inferredMetricsTieBreakers>
         <segue reference="J9O-Bp-bfj"/>
     </inferredMetricsTieBreakers>
-    <color key="tintColor" red="0.27843137254901962" green="0.0" blue="0.65490196078431373" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
     <resources>
         <image name="capaLogo" width="1050" height="600"/>
         <image name="chevron.backward" catalog="system" width="96" height="128"/>

@@ -13,6 +13,7 @@
 		9D2D867126851FFF00B1C01F /* ColletionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2D867026851FFF00B1C01F /* ColletionViewController.swift */; };
 		9D3D048F26836D2B008D237A /* FirstScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3D048E26836D2B008D237A /* FirstScreenViewController.swift */; };
 		9D4F526F268234D0000A8281 /* pergunta.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D4F526D268234D0000A8281 /* pergunta.png */; };
+		9DEF433B2686750400B32360 /* EmAltaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEF433A2686750400B32360 /* EmAltaViewController.swift */; };
 		A00A8FF4267BFAF50042F249 /* populares.json in Resources */ = {isa = PBXBuildFile; fileRef = A00A8FF3267BFAF50042F249 /* populares.json */; };
 		A03240C6266978AB0014E308 /* Perguntas.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03240C3266978AB0014E308 /* Perguntas.swift */; };
 		A03240C7266978AB0014E308 /* ReadContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03240C4266978AB0014E308 /* ReadContent.swift */; };
@@ -25,7 +26,6 @@
 		A0A0F0022665534400DA1ECF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0A0F0012665534400DA1ECF /* Assets.xcassets */; };
 		A0A0F0052665534400DA1ECF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0A0F0032665534400DA1ECF /* LaunchScreen.storyboard */; };
 		A0BFA447266A92A200E41287 /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BFA446266A92A200E41287 /* PopUpViewController.swift */; };
-		A0BFA44B266AA26400E41287 /* FavoritosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BFA44A266AA26400E41287 /* FavoritosViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +35,7 @@
 		9D2D867026851FFF00B1C01F /* ColletionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ColletionViewController.swift; path = FirstApp/Classes/ColletionViewController.swift; sourceTree = SOURCE_ROOT; };
 		9D3D048E26836D2B008D237A /* FirstScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreenViewController.swift; sourceTree = "<group>"; };
 		9D4F526D268234D0000A8281 /* pergunta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pergunta.png; sourceTree = "<group>"; };
+		9DEF433A2686750400B32360 /* EmAltaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmAltaViewController.swift; sourceTree = "<group>"; };
 		A00A8FF3267BFAF50042F249 /* populares.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = populares.json; sourceTree = "<group>"; };
 		A03240C3266978AB0014E308 /* Perguntas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Perguntas.swift; sourceTree = "<group>"; };
 		A03240C4266978AB0014E308 /* ReadContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadContent.swift; sourceTree = "<group>"; };
@@ -49,7 +50,6 @@
 		A0A0F0042665534400DA1ECF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0A0F0062665534400DA1ECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0BFA446266A92A200E41287 /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
-		A0BFA44A266AA26400E41287 /* FavoritosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritosViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,12 +75,12 @@
 		9D2D86682684C06100B1C01F /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				9DEF433A2686750400B32360 /* EmAltaViewController.swift */,
 				9D2D867026851FFF00B1C01F /* ColletionViewController.swift */,
 				9D2D86612683A56900B1C01F /* HelpViewController.swift */,
 				9D3D048E26836D2B008D237A /* FirstScreenViewController.swift */,
 				A0A0EFFC2665534200DA1ECF /* ViewController.swift */,
 				A0BFA446266A92A200E41287 /* PopUpViewController.swift */,
-				A0BFA44A266AA26400E41287 /* FavoritosViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -226,11 +226,11 @@
 				A03240C8266978AB0014E308 /* Particle.swift in Sources */,
 				A0BFA447266A92A200E41287 /* PopUpViewController.swift in Sources */,
 				A03240C7266978AB0014E308 /* ReadContent.swift in Sources */,
-				A0BFA44B266AA26400E41287 /* FavoritosViewController.swift in Sources */,
 				A0A0EFF92665534200DA1ECF /* AppDelegate.swift in Sources */,
 				A0A0EFFB2665534200DA1ECF /* SceneDelegate.swift in Sources */,
 				A03240C6266978AB0014E308 /* Perguntas.swift in Sources */,
 				9D3D048F26836D2B008D237A /* FirstScreenViewController.swift in Sources */,
+				9DEF433B2686750400B32360 /* EmAltaViewController.swift in Sources */,
 				9D2D86622683A56900B1C01F /* HelpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

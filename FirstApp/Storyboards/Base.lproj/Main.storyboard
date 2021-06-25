@@ -377,16 +377,16 @@
                                                     <rect key="frame" x="20" y="8" width="350" height="270"/>
                                                     <subviews>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="capaLogo" translatesAutoresizingMaskIntoConstraints="NO" id="AFo-ra-Asw">
-                                                            <rect key="frame" x="0.0" y="0.0" width="350" height="270"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="350" height="350"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" constant="350" id="LPo-Yj-Kvi"/>
                                                                 <constraint firstAttribute="height" constant="350" id="tpq-6a-4cd"/>
                                                             </constraints>
                                                         </imageView>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Qual a importância do logo para minha empresa?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zXJ-xh-iph">
-                                                            <rect key="frame" x="24" y="33" width="302" height="123"/>
+                                                            <rect key="frame" x="23" y="23" width="302" height="123"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                             <color key="textColor" red="0.92525942979999998" green="0.92525942979999998" blue="0.92525942979999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
@@ -394,7 +394,7 @@
                                                     <color key="backgroundColor" systemColor="separatorColor"/>
                                                     <constraints>
                                                         <constraint firstAttribute="trailing" secondItem="AFo-ra-Asw" secondAttribute="trailing" id="2JI-aI-0bR"/>
-                                                        <constraint firstAttribute="height" constant="350" id="76H-j2-rgJ"/>
+                                                        <constraint firstAttribute="height" constant="200" id="76H-j2-rgJ"/>
                                                         <constraint firstAttribute="width" constant="350" id="Ic1-ow-mNa"/>
                                                         <constraint firstAttribute="bottom" secondItem="AFo-ra-Asw" secondAttribute="bottom" id="MAj-hZ-Vty"/>
                                                         <constraint firstItem="AFo-ra-Asw" firstAttribute="top" secondItem="Gcn-21-fm5" secondAttribute="top" id="RiR-bX-nPp"/>
@@ -500,7 +500,7 @@
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.27843137254901962" green="0.0" blue="0.65490196078431373" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
     <resources>
-        <image name="capaLogo" width="1076" height="804"/>
+        <image name="capaLogo" width="350" height="200"/>
         <image name="chevron.backward" catalog="system" width="96" height="128"/>
         <image name="logo" width="1236" height="249"/>
         <image name="logoBranco" width="1236" height="249"/>

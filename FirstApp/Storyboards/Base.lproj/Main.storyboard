@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="uHX-HD-SCw">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="uHX-HD-SCw">
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="collection view cell content view" minToolsVersion="11.0"/>
@@ -364,6 +364,9 @@
                                     <segment title="   Marca        "/>
                                     <segment title=" Serviço        "/>
                                 </segments>
+                                <connections>
+                                    <action selector="segmentedControl:" destination="Wh7-LY-Pjl" eventType="valueChanged" id="X1d-0f-Je9"/>
+                                </connections>
                             </segmentedControl>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Rby-TO-hHe">
                                 <rect key="frame" x="0.0" y="209" width="390" height="644"/>
@@ -423,6 +426,7 @@
                                             <outlet property="background" destination="Gcn-21-fm5" id="zzi-LK-NrZ"/>
                                             <outlet property="image" destination="AFo-ra-Asw" id="ceu-5N-Dtm"/>
                                             <outlet property="question" destination="zXJ-xh-iph" id="xvV-sx-Xwj"/>
+                                            <segue destination="BHa-4W-Abp" kind="show" identifier="showQuestionDetail" id="J9O-Bp-bfj"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -445,6 +449,10 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Respostas" largeTitleDisplayMode="always" id="vE4-Vk-mco"/>
+                    <connections>
+                        <outlet property="collectionView" destination="Rby-TO-hHe" id="UHF-PA-Lwp"/>
+                        <outlet property="segmentedOutlet" destination="8oB-a1-Whw" id="nst-n8-2bL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JvB-A4-BIJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -517,11 +525,11 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="jeJ-g6-pjG"/>
+        <segue reference="J9O-Bp-bfj"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.27843137254901962" green="0.0" blue="0.65490196078431373" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
     <resources>
-        <image name="capaLogo" width="350" height="200"/>
+        <image name="capaLogo" width="1050" height="600"/>
         <image name="chevron.backward" catalog="system" width="96" height="128"/>
         <image name="logo" width="1236" height="249"/>
         <image name="logoBranco" width="1236" height="249"/>

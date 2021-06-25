@@ -6,24 +6,40 @@
 ////
 //
 import UIKit
-class CollectionViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
-    let images = ["capaLogo", "capaMarcas", "capaServico", "capaLogo"]
+class CollectionViewController: UIViewController {
+    let images = ["capaLogo", "capaMarcas", "capaServico"]
     let questions = ["Qual a importância do logo para minha empresa?", "Qual a importância de se ter um propósito para criação de uma marca?", "Quanto custa pra fazer um logo para minha empresa?", "Teste"]
     
-    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return images.count
-    }
+    var perguntas:[Pergunta] = Pergunta.logos
     
-    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "postCell", for: indexPath) as! PostCell
-        cell.image.image = UIImage(named: images[indexPath.row])
-        cell.question.text = questions[indexPath.row]
-        return cell
-    }
+    var selectedIndex: Int = 0
+    
+    @IBOutlet weak var collectionView: UICollectionView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
     }
+    @IBOutlet weak var segmentedOutlet: UISegmentedControl!
+    
+    
+    @IBAction func segmentedControl(_ sender: Any) {
+        
+        let index = self.segmentedOutlet.selectedSegmentIndex
+        if index == 0 {
+            self.perguntas = Pergunta.logos
+        }
+        else if index == 1{
+            self.perguntas = Pergunta.marcas
+        }
+        else{
+            self.perguntas = Pergunta.servicos
+        }
+        
+        collectionView.reloadData()
+        collectionView.reloadItems(at: collectionView.indexPathsForVisibleItems)
+    }
+    
 }
 
 class PostCell: UICollectionViewCell{
@@ -36,4 +52,28 @@ class PostCell: UICollectionViewCell{
         image.layer.cornerRadius = 12
     }
     
+}
+extension CollectionViewController: UICollectionViewDataSource{
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        
+        return perguntas.count
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "postCell", for: indexPath) as! PostCell
+        cell.image.image = UIImage(named: images[self.segmentedOutlet.selectedSegmentIndex])
+        cell.question.text = perguntas[indexPath.row].nomePergunta
+        return cell
+    }
+    
+}
+
+extension CollectionViewController: UICollectionViewDelegate{
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        selectedIndex = indexPath.row
+    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let vc = segue.destination as? PopUpViewController
+        vc?.pergunta = perguntas[selectedIndex]
+    }
 }

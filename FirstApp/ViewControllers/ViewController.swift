@@ -31,7 +31,7 @@ class ViewController: UIViewController {
         tableView.delegate = self
         
         segmentedControl.addAction(UIAction(handler:{ [weak self] _ in
-            print(self?.segmentedControl.selectedSegmentIndex)
+//            print(self?.segmentedControl.selectedSegmentIndex)
             if let index = self?.segmentedControl.selectedSegmentIndex{
                 if index == 0 {
                     self?.perguntas = Pergunta.logos

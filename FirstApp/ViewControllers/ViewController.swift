@@ -81,4 +81,3 @@ extension ViewController: UITableViewDelegate{
         vc?.pergunta = perguntas[sender as? Int ?? 0]
     }
 }
-

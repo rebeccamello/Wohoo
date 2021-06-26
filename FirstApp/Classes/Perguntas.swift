@@ -15,7 +15,6 @@ struct Pergunta: Codable{
     static var logos: [Pergunta]{
         let rc = ReadContent()
         return rc.load(filename: "data")
-        
     }
     
     static var marcas: [Pergunta]{

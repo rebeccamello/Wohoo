@@ -15,6 +15,8 @@ class EmAltaCollectionViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        EACollectionView.dataSource = self
+        EACollectionView.delegate = self
     }
 }
 
@@ -40,16 +42,9 @@ extension EmAltaCollectionViewController: UICollectionViewDataSource{
         cell.quest.text = perguntas[indexPath.row].nomePergunta
         return cell
     }
-    
 }
 
 extension EmAltaCollectionViewController: UICollectionViewDelegate{
-    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        let vc = PopUpViewController()
-        vc.pergunta = perguntas[indexPath.row]
-        
-        self.performSegue(withIdentifier: "details2", sender: indexPath.row)
-    }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let vc = segue.destination as? PopUpViewController
         vc?.pergunta = perguntas[sender as? Int ?? 0]

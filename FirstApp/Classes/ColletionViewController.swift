@@ -37,7 +37,7 @@ class CollectionViewController: UIViewController {
         }
         
         collectionView.reloadData()
-        collectionView.reloadItems(at: collectionView.indexPathsForVisibleItems)
+//        collectionView.reloadItems(at: collectionView.indexPathsForVisibleItems)
     }
     
 }
@@ -73,6 +73,7 @@ extension CollectionViewController: UICollectionViewDelegate{
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let vc = segue.destination as? PopUpViewController
+        
         vc?.pergunta = perguntas[selectedIndex]
     }
 }

@@ -72,10 +72,10 @@ extension CollectionViewController: UICollectionViewDataSource{
 extension CollectionViewController: UICollectionViewDelegate{
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         selectedIndex = indexPath.row
-//        self.performSegue(withIdentifier: "conexao", sender: indexPath.row)
-        
-//        let vc = UINavigationController(rootViewController: PopUpViewController())
-//        self.navigationController?.pushViewController(vc, animated: true)
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let viewController = storyboard.instantiateViewController(withIdentifier: "popUpviewcontroller") as! PopUpViewController
+        viewController.pergunta = perguntas[selectedIndex]
+        self.navigationController!.pushViewController(viewController, animated: true)
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let vc = segue.destination as? PopUpViewController

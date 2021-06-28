@@ -11,6 +11,8 @@ class EmAltaCollectionViewController: UIViewController {
     
     var perguntas:[Pergunta] = Pergunta.populares
     
+    var selectedIndex: Int = 0
+    
     @IBOutlet weak var EACollectionView: UICollectionView!
     
     override func viewDidLoad() {
@@ -45,6 +47,13 @@ extension EmAltaCollectionViewController: UICollectionViewDataSource{
 }
 
 extension EmAltaCollectionViewController: UICollectionViewDelegate{
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        selectedIndex = indexPath.row
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let viewController = storyboard.instantiateViewController(withIdentifier: "popUpviewcontroller") as! PopUpViewController
+        viewController.pergunta = perguntas[selectedIndex]
+        self.navigationController!.pushViewController(viewController, animated: true)
+    }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let vc = segue.destination as? PopUpViewController
         vc?.pergunta = perguntas[sender as? Int ?? 0]

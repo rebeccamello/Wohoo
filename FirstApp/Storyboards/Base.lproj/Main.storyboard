@@ -58,10 +58,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3G9-RJ-s8C">
-                                <rect key="frame" x="16" y="179" width="358" height="493"/>
+                                <rect key="frame" x="16" y="83" width="358" height="638"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Título" lineBreakMode="wordWrap" numberOfLines="0" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nNJ-m4-agr">
-                                        <rect key="frame" x="60" y="11" width="61.666666666666686" height="28.666666666666664"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Título" lineBreakMode="wordWrap" numberOfLines="0" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nNJ-m4-agr">
+                                        <rect key="frame" x="57" y="-37" width="293" height="125"/>
                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
                                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -76,10 +76,14 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="pergunta.png" translatesAutoresizingMaskIntoConstraints="NO" id="ymg-5S-uWR">
-                                        <rect key="frame" x="-1" y="-23" width="53" height="97"/>
+                                        <rect key="frame" x="-1" y="-23" width="50" height="97"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="97" id="PZ3-lW-7Xn"/>
+                                            <constraint firstAttribute="width" constant="50" id="ovx-YC-g8p"/>
+                                        </constraints>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Resposta" lineBreakMode="wordWrap" numberOfLines="0" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="329" translatesAutoresizingMaskIntoConstraints="NO" id="rdO-jd-1zB">
-                                        <rect key="frame" x="0.0" y="236" width="71" height="20.333333333333343"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Resposta" lineBreakMode="wordWrap" numberOfLines="0" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="329" translatesAutoresizingMaskIntoConstraints="NO" id="rdO-jd-1zB">
+                                        <rect key="frame" x="10" y="177" width="340" height="20.333333333333343"/>
                                         <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
                                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -87,18 +91,19 @@
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstItem="HPV-FV-BKb" firstAttribute="trailing" secondItem="nNJ-m4-agr" secondAttribute="trailing" id="0pW-t7-ubb"/>
                                     <constraint firstItem="rdO-jd-1zB" firstAttribute="leading" secondItem="3G9-RJ-s8C" secondAttribute="leading" constant="10" id="5aC-F4-QT6"/>
                                     <constraint firstItem="HPV-FV-BKb" firstAttribute="top" secondItem="3G9-RJ-s8C" secondAttribute="top" constant="96" id="8rp-sX-4Tf"/>
+                                    <constraint firstAttribute="trailing" secondItem="nNJ-m4-agr" secondAttribute="trailing" constant="8" id="Bkz-Ej-sC9"/>
                                     <constraint firstItem="HPV-FV-BKb" firstAttribute="leading" secondItem="3G9-RJ-s8C" secondAttribute="leading" constant="10" id="DMe-SN-wmt"/>
                                     <constraint firstItem="HPV-FV-BKb" firstAttribute="top" secondItem="nNJ-m4-agr" secondAttribute="bottom" constant="8" id="E78-eA-EX5"/>
                                     <constraint firstItem="ymg-5S-uWR" firstAttribute="top" secondItem="3G9-RJ-s8C" secondAttribute="top" constant="-23" id="INl-e1-TtJ"/>
                                     <constraint firstItem="HPV-FV-BKb" firstAttribute="trailing" secondItem="3G9-RJ-s8C" secondAttribute="trailingMargin" id="LDR-dx-dMV"/>
                                     <constraint firstItem="rdO-jd-1zB" firstAttribute="top" secondItem="HPV-FV-BKb" secondAttribute="bottom" constant="21" id="OEL-j2-tn6"/>
+                                    <constraint firstItem="nNJ-m4-agr" firstAttribute="centerY" secondItem="ymg-5S-uWR" secondAttribute="centerY" id="SSJ-Q3-sRf"/>
                                     <constraint firstItem="ymg-5S-uWR" firstAttribute="leading" secondItem="3G9-RJ-s8C" secondAttribute="leading" constant="-1" id="bDd-bz-3eJ"/>
                                     <constraint firstItem="HPV-FV-BKb" firstAttribute="top" secondItem="ymg-5S-uWR" secondAttribute="bottom" constant="22" id="f3B-ev-CuW"/>
                                     <constraint firstItem="HPV-FV-BKb" firstAttribute="trailing" secondItem="rdO-jd-1zB" secondAttribute="trailing" id="ldQ-q9-vkL"/>
-                                    <constraint firstItem="nNJ-m4-agr" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="ymg-5S-uWR" secondAttribute="leading" constant="8" id="yGw-ic-3eq"/>
+                                    <constraint firstItem="nNJ-m4-agr" firstAttribute="leading" secondItem="ymg-5S-uWR" secondAttribute="trailing" constant="8" id="yGw-ic-3eq"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -391,7 +396,6 @@
                                             <outlet property="background" destination="Gcn-21-fm5" id="zzi-LK-NrZ"/>
                                             <outlet property="image" destination="AFo-ra-Asw" id="ceu-5N-Dtm"/>
                                             <outlet property="question" destination="zXJ-xh-iph" id="xvV-sx-Xwj"/>
-                                            <segue destination="BHa-4W-Abp" kind="show" identifier="showQuestionDetail" id="J9O-Bp-bfj"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -499,7 +503,6 @@
                                             <outlet property="bg" destination="riR-RP-YUc" id="FBx-3X-I3Q"/>
                                             <outlet property="img" destination="Qea-Ra-CFL" id="Axk-bl-ZwJ"/>
                                             <outlet property="quest" destination="Q2j-uY-C5V" id="ywK-E8-ler"/>
-                                            <segue destination="BHa-4W-Abp" kind="show" identifier="details2" id="JyW-f7-cCp"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -585,9 +588,6 @@
             <point key="canvasLocation" x="425" y="862"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="JyW-f7-cCp"/>
-    </inferredMetricsTieBreakers>
     <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
     <resources>
         <image name="capaAlta" width="350" height="200"/>

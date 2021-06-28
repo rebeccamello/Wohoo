@@ -9,7 +9,6 @@ import UIKit
 class CollectionViewController: UIViewController {
     let images = ["capaLogo", "capaMarcas", "capaServico"]
 
-    
     var perguntas:[Pergunta] = Pergunta.logos
     
     var selectedIndex: Int = 0
@@ -18,11 +17,9 @@ class CollectionViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
     }
+    
     @IBOutlet weak var segmentedOutlet: UISegmentedControl!
-    
-    
     @IBAction func segmentedControl(_ sender: Any) {
         
         let index = self.segmentedOutlet.selectedSegmentIndex
@@ -40,6 +37,12 @@ class CollectionViewController: UIViewController {
 //        collectionView.reloadItems(at: collectionView.indexPathsForVisibleItems)
     }
     
+    @IBAction func actPopUp() -> Void{
+        guard let vc = storyboard?.instantiateViewController(identifier: "idPopUp") as? PopUpViewController else {return}
+        vc.modalPresentationStyle = .fullScreen
+        vc.modalTransitionStyle = .crossDissolve
+        present(vc, animated: true)
+    }
 }
 
 class PostCell: UICollectionViewCell{
@@ -64,16 +67,20 @@ extension CollectionViewController: UICollectionViewDataSource{
         cell.question.text = perguntas[indexPath.row].nomePergunta
         return cell
     }
-    
 }
 
 extension CollectionViewController: UICollectionViewDelegate{
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         selectedIndex = indexPath.row
+//        self.performSegue(withIdentifier: "conexao", sender: indexPath.row)
+        
+//        let vc = UINavigationController(rootViewController: PopUpViewController())
+//        self.navigationController?.pushViewController(vc, animated: true)
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let vc = segue.destination as? PopUpViewController
-        
         vc?.pergunta = perguntas[selectedIndex]
     }
 }
+
+

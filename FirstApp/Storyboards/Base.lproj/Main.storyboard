@@ -98,7 +98,7 @@
                                     <constraint firstItem="ymg-5S-uWR" firstAttribute="leading" secondItem="3G9-RJ-s8C" secondAttribute="leading" constant="-1" id="bDd-bz-3eJ"/>
                                     <constraint firstItem="HPV-FV-BKb" firstAttribute="top" secondItem="ymg-5S-uWR" secondAttribute="bottom" constant="22" id="f3B-ev-CuW"/>
                                     <constraint firstItem="HPV-FV-BKb" firstAttribute="trailing" secondItem="rdO-jd-1zB" secondAttribute="trailing" id="ldQ-q9-vkL"/>
-                                    <constraint firstItem="nNJ-m4-agr" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="ymg-5S-uWR" secondAttribute="trailing" constant="8" symbolic="YES" id="yGw-ic-3eq"/>
+                                    <constraint firstItem="nNJ-m4-agr" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="ymg-5S-uWR" secondAttribute="leading" constant="8" id="yGw-ic-3eq"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -170,9 +170,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aLi-Uf-WDH">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aLi-Uf-WDH">
                                 <rect key="frame" x="20" y="33" width="60" height="22"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal" title="Voltar" image="chevron.backward" catalog="system">
                                     <color key="titleColor" systemColor="labelColor"/>
@@ -181,21 +180,34 @@
                                     <action selector="backButton:" destination="5te-wS-S1M" eventType="touchUpInside" id="bKP-gQ-0K5"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jke-zW-as8">
-                                <rect key="frame" x="21" y="264" width="348" height="248"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jke-zW-as8">
+                                <rect key="frame" x="20" y="270" width="350" height="182.66666666666663"/>
                                 <string key="text">Bem-vindos ao Wohoo, aqui você pode esclarecer suas dúvidas com apenas alguns clicks. Nessa plataforma você pode enviar sua dúvida e se conectar com inúmeros ícones do empreendedorismo.   Não perca tempo, aprenda com as dúvidas que já foram respondidas e também envie a sua.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="fJ2-of-13z">
-                                <rect key="frame" x="53" y="82" width="285" height="160"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="fJ2-of-13z">
+                                <rect key="frame" x="53" y="70" width="284" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="Gta-q0-bEu"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="azf-X5-qaQ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="azf-X5-qaQ" firstAttribute="top" secondItem="fJ2-of-13z" secondAttribute="top" constant="-70" id="1xw-AZ-380"/>
+                            <constraint firstAttribute="trailing" secondItem="fJ2-of-13z" secondAttribute="trailing" constant="53" id="53s-Cq-o0T"/>
+                            <constraint firstItem="jke-zW-as8" firstAttribute="top" secondItem="fJ2-of-13z" secondAttribute="bottom" constant="50" id="6lC-Dn-aGT"/>
+                            <constraint firstItem="fJ2-of-13z" firstAttribute="centerX" secondItem="azf-X5-qaQ" secondAttribute="centerX" id="DG0-Ge-iLP"/>
+                            <constraint firstItem="fJ2-of-13z" firstAttribute="leading" secondItem="VEt-9t-xxN" secondAttribute="leading" constant="53" id="OSa-7E-yz3"/>
+                            <constraint firstItem="azf-X5-qaQ" firstAttribute="trailing" secondItem="jke-zW-as8" secondAttribute="trailing" constant="20" id="WGZ-Xq-WDt"/>
+                            <constraint firstItem="aLi-Uf-WDH" firstAttribute="leading" secondItem="jke-zW-as8" secondAttribute="leading" id="mpH-hX-2Eg"/>
+                            <constraint firstItem="azf-X5-qaQ" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="aLi-Uf-WDH" secondAttribute="trailing" symbolic="YES" id="tPf-cz-rxw"/>
+                            <constraint firstItem="jke-zW-as8" firstAttribute="leading" secondItem="azf-X5-qaQ" secondAttribute="leading" constant="20" id="wto-Pp-ro0"/>
+                            <constraint firstItem="aLi-Uf-WDH" firstAttribute="top" secondItem="azf-X5-qaQ" secondAttribute="top" constant="33" id="y6s-RV-qmW"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="VAX-cG-Dqo"/>
                 </viewController>
@@ -212,7 +224,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Um aplicativo que soluciona suas duvidas sobre Branding e te conecta com o mundo do empreendedorismo" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sot-2R-xQv">
-                                <rect key="frame" x="42" y="412" width="306" height="61"/>
+                                <rect key="frame" x="42" y="422" width="306" height="61"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -246,21 +258,24 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logoBranco" translatesAutoresizingMaskIntoConstraints="NO" id="zms-fq-p6o">
-                                <rect key="frame" x="25" y="195" width="340" height="249"/>
+                                <rect key="frame" x="25" y="222" width="340" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="bUR-fk-zXI"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="KGD-PP-OMJ"/>
                         <color key="backgroundColor" red="0.2792535424" green="0.0010164732809999999" blue="0.65494167800000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="Sot-2R-xQv" firstAttribute="top" secondItem="cE8-ZY-VbE" secondAttribute="bottom" constant="312" id="454-6C-MhM"/>
+                            <constraint firstItem="Sot-2R-xQv" firstAttribute="top" secondItem="zms-fq-p6o" secondAttribute="bottom" id="454-6C-MhM"/>
                             <constraint firstItem="KGD-PP-OMJ" firstAttribute="trailing" secondItem="zms-fq-p6o" secondAttribute="trailing" constant="25" id="Gi9-FG-39F"/>
                             <constraint firstItem="KGD-PP-OMJ" firstAttribute="bottom" secondItem="Dgh-bx-5kR" secondAttribute="bottom" constant="25" id="LX5-qA-4ap"/>
                             <constraint firstItem="KGD-PP-OMJ" firstAttribute="trailing" secondItem="cE8-ZY-VbE" secondAttribute="trailing" constant="32" id="ODz-a2-KGg"/>
+                            <constraint firstItem="zms-fq-p6o" firstAttribute="centerY" secondItem="hek-iL-N0j" secondAttribute="centerY" constant="-100" id="QU0-O1-XYN"/>
                             <constraint firstItem="KGD-PP-OMJ" firstAttribute="trailing" secondItem="Dgh-bx-5kR" secondAttribute="trailing" constant="42" id="SDJ-qA-sFh"/>
                             <constraint firstItem="Dgh-bx-5kR" firstAttribute="leading" secondItem="KGD-PP-OMJ" secondAttribute="leading" constant="42" id="Wsv-Bv-FWM"/>
                             <constraint firstItem="cE8-ZY-VbE" firstAttribute="top" secondItem="KGD-PP-OMJ" secondAttribute="top" constant="16" id="X5o-uk-Bqd"/>
                             <constraint firstItem="zms-fq-p6o" firstAttribute="leading" secondItem="KGD-PP-OMJ" secondAttribute="leading" constant="25" id="YMc-ci-FCP"/>
-                            <constraint firstItem="zms-fq-p6o" firstAttribute="top" secondItem="cE8-ZY-VbE" secondAttribute="bottom" constant="95" id="aty-Nt-W6y"/>
                             <constraint firstItem="Sot-2R-xQv" firstAttribute="leading" secondItem="KGD-PP-OMJ" secondAttribute="leading" constant="42" id="dxI-1X-Z4x"/>
                             <constraint firstItem="KGD-PP-OMJ" firstAttribute="trailing" secondItem="Sot-2R-xQv" secondAttribute="trailing" constant="42" id="tdw-tp-8cb"/>
                         </constraints>
@@ -573,7 +588,7 @@
     <inferredMetricsTieBreakers>
         <segue reference="JyW-f7-cCp"/>
     </inferredMetricsTieBreakers>
-    <color key="tintColor" red="0.2792535424" green="0.0010164732809999999" blue="0.65494167800000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
     <resources>
         <image name="capaAlta" width="350" height="200"/>
         <image name="capaLogo" width="1050" height="600"/>
